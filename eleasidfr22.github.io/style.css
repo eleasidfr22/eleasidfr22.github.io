@@ -1,0 +1,74 @@
+ /*
+    NOMBRE: FLORES RODRIGUEZ ELEASID DEL ANGEL
+    MATERIA: PROGRAMACION CLIENTE SERVIDOR 
+    GRUPO: ISW-25
+    PROYECTO: PAGINA WEB EN GITHUB  
+
+    */
+    
+    /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em 0;
+}
+
+section#inicio {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+section#sobre-mi,
+section#proyectos,
+section#contacto {
+    background: #fff;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+    
+    
