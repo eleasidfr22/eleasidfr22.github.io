@@ -6,8 +6,6 @@
 
 */
 
-/* Estilo general */
-/* Estilo general */
 body {
     background-color: black;
     font-family: Arial, sans-serif;
@@ -46,30 +44,39 @@ section {
 }
 
 section#inicio {
+    padding: 5%;
+    border-radius: 2%;
     background-color: #EEEEEE; /* Cambia el color de fondo de la sección de inicio */
-    color: #333; /* Cambia el color del texto para un mejor contraste */
+    color: #333; /* Cambia el color del texto para */
     text-align: center;
 }
 
 section#sobre-mi {
+    padding: 5%;
+    border-radius: 2%;
     background-color: #EEEEEE; /* Cambia el color de fondo de la sección sobre mí */
     color: #333; /* Cambia el color del texto para un mejor contraste */
 }
 
 section#proyectos {
+    padding: 5%;
+    border-radius: 2%;
     background-color: #DDDDDD; /* Cambia el color de fondo de la sección de proyectos */
     color: #333; /* Cambia el color del texto para un mejor contraste */
 }
 
 section#contacto {
+    padding: 5%;
+    border-radius: 2%;
     background-color: #EEEEEE; /* Cambia el color de fondo de la sección de contacto */
     color: #333; /* Cambia el color del texto para un mejor contraste */
 }
 
 /* Estilo para el portafolio */
 .Portafolio {
+    padding: 5%;
+    border-radius: 2%;
     background-color: #DDDDDD; /* Cambia el color de fondo del portafolio */
-    padding: 2em 0;
     margin-bottom: 2em; /* Espacio inferior para separar del contenido siguiente */
 }
 
@@ -156,5 +163,4 @@ footer button:hover {
         margin: 5px 0;
     }
 }
-
 
