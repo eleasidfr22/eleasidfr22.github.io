@@ -4,9 +4,12 @@
     GRUPO: ISW-25
     PROYECTO: PAGINA WEB EN GITHUB  
 
-    */
+*/
 
+/* Estilo general */
+/* Estilo general */
 body {
+    background-color: black;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -15,8 +18,7 @@ body {
 }
 
 header {
-    background-color: white;
-    /*background: #333;*/
+    background-color: #333; /* Cambia a un color oscuro para el header */
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -37,39 +39,122 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Color de fondo para las secciones específicas */
 section {
-    padding: 2em 0;
-}
-
-.Portafolio {
-    background-color: #E7F6F2;
+    padding: 2em 0; /* Espacio interno de cada sección */
+    margin-bottom: 2em; /* Espacio inferior para separar las secciones */
 }
 
 section#inicio {
-    background: #E7F6F2;
+    background-color: #EEEEEE; /* Cambia el color de fondo de la sección de inicio */
+    color: #333; /* Cambia el color del texto para un mejor contraste */
     text-align: center;
 }
 
-section#sobre-mi,
-section#proyectos,
+section#sobre-mi {
+    background-color: #EEEEEE; /* Cambia el color de fondo de la sección sobre mí */
+    color: #333; /* Cambia el color del texto para un mejor contraste */
+}
+
+section#proyectos {
+    background-color: #DDDDDD; /* Cambia el color de fondo de la sección de proyectos */
+    color: #333; /* Cambia el color del texto para un mejor contraste */
+}
+
 section#contacto {
-    background: #E7F6F2;
+    background-color: #EEEEEE; /* Cambia el color de fondo de la sección de contacto */
+    color: #333; /* Cambia el color del texto para un mejor contraste */
+}
+
+/* Estilo para el portafolio */
+.Portafolio {
+    background-color: #DDDDDD; /* Cambia el color de fondo del portafolio */
+    padding: 2em 0;
+    margin-bottom: 2em; /* Espacio inferior para separar del contenido siguiente */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
-    background: #333;
+    background-color: #222;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    width: 100%;
+    padding: 20px 0;
     bottom: 0;
+    width: 100%;
+    border-top: 1px solid #444;
 }
 
-/* Responsive Styles */
+.container {
+    padding-bottom: 100px; /* Espacio para el footer */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+footer a {
+    color: #c547ff; /* Color de los enlaces */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer form {
+    margin-top: 10px;
+}
+
+footer input[type="email"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+footer button {
+    padding: 5px 10px;
+    background-color: #c547ff;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #c547ff;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.list-inline-item {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* Estilos responsivos */
 @media (max-width: 600px) {
     nav ul li {
         display: block;
         margin: 5px 0;
     }
 }
+
+
