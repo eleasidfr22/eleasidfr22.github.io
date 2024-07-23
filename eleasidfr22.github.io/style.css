@@ -41,15 +41,19 @@ section {
     padding: 2em 0;
 }
 
+.Portafolio {
+    background-color: #E7F6F2;
+}
+
 section#inicio {
-    background: #f4f4f4;
+    background: #E7F6F2;
     text-align: center;
 }
 
 section#sobre-mi,
 section#proyectos,
 section#contacto {
-    background: #fff;
+    background: #E7F6F2;
 }
 
 footer {
